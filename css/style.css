@@ -614,6 +614,7 @@ footer .logo{
    margin:5px 0 0;
  }
 
-.clickedon:active{
+.clickedon{
   background-color: black;
+  display:block;
 }

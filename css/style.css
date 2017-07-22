@@ -352,12 +352,15 @@ footer .logo{
 }
 
 .signup{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
   width: 50%;
   border: 2px solid;
   border-color: #888888;
   padding: 10px;
-  align-items: center;
+  align-content:: center;
 }
 
 

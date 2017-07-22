@@ -27,6 +27,14 @@ p {
   padding-right: 15px;
   position: relative;
 }
+.signupcontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  align-content: center;
+}
 .container:before,
 .container:after {
   content: " ";
@@ -50,6 +58,9 @@ p {
   header .hero img {
     display:none;
   }
+  /* .one-half{
+    align: right;
+  } */
 }
 
 @media (min-width: 768px) {
@@ -352,15 +363,12 @@ footer .logo{
 }
 
 .signup{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+  margin: auto;
   margin-bottom: 50px;
   width: 50%;
   border: 2px solid;
   border-color: #888888;
   padding: 10px;
-  align-content:: center;
 }
 
 

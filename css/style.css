@@ -28,12 +28,12 @@ p {
   position: relative;
 }
 .signupcontainer {
-  margin-right: auto; /* styles conflict */
-  margin-left: auto;
+  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container:before,
 .container:after {
@@ -51,11 +51,16 @@ p {
   margin:0 2% 20px;
 }
 
-@media (max-width : 320px) {
+@media (min-width : 120px) {
   .container {
     width: 310px;
   }
-
+ header .head {
+   padding-top: -10px;
+ }
+ .signin_signup_btns{
+  padding-top: 5px;
+ }
 }
 
 @media (min-width: 768px) {
@@ -359,11 +364,13 @@ footer .logo{
 
 .signup{
   margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 50px;
   width: 50%;
   border: 2px solid;
   border-color: #888888;
-  padding: 10px;
+  padding: 30px;
 }
 
 
@@ -616,14 +623,36 @@ footer .logo{
    }
    /* add sign + sign up buttons */
    .one-half{
-    position: absolute;
+    width: 100%;
     top: auto;
     right:auto;
+    padding-right: 20px;
   }
+   .signin_signup_btns{
+    padding-top: 5px;
+   }
   /* .btn{
     position: fixed;
   } */
  }
+ footer{
+   background-color: #3498DB;
+   background-image: linear-gradient(to left,
+      #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+   height: 100px;
+ }
+ footer p, footer nav ul{
+   padding: 2em 0;
+   text-align: left;
+ }
+ footer .right-footer-block {
+   background-color: #3498DB;
+ }
+ footer .logo{
+   padding: 2em 0 2em 1.5em;
+ }
+}
+
 /* Tablets */
  @media (min-width:768px) {
    .content {
@@ -695,6 +724,7 @@ footer .logo{
    position: absolute;
    top: auto;
    right:auto;
+   padding-right: 10px;
  }
 }
  }

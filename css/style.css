@@ -52,18 +52,6 @@ p {
   min-height: 1px;
   margin:0 2% 20px;
 }
-/* Added 8/1 */
-@media (min-width : 120px) {
-  .container {
-    width: 310px;
-  }
- header .head {
-   padding-top: -10px;
- }
- .signin_signup_btns{
-  padding-top: 5px;
- }
-}
 
 @media (min-width: 768px) {
   .container {
@@ -105,7 +93,7 @@ p {
     width: 1170px;
   }
   footer .middle-footer-block {
-    padding-top: 10px;
+    margin-top: 0px
   }
   footer .right-footer-block {
     position: relative;
@@ -554,10 +542,11 @@ footer .logo{
     top: -30px;
   }
   footer .logo{
-    margin-top: 5px;
+    margin-top: -40px;
   }
   footer .middle-footer-block {
-    margin-left: -145px;
+    margin-top: -20px;
+    margin-left: -20px;
   }
  }
 
@@ -592,7 +581,7 @@ footer .logo{
     padding-top: 5px;
    }
 
- footer {
+ /*footer {
    background-color: #fff;
  }
 
@@ -605,12 +594,11 @@ footer .logo{
      background-color: #3498DB;
    }
 
+   footer .middle-footer-block {
+     margin-left: 0px;
+   } */
    footer .logo{
      margin-top: -25px;
-   }
-   footer .middle-footer-block {
-     display:
-     margin-left:300px;
    }
  }
 
@@ -639,8 +627,9 @@ footer .logo{
     right:auto;
   }
   footer .middle-footer-block {
-    margin-left:0px;
+    margin-top: -15px;
   }
+
  }
 /* Laptops and Desktops */
  @media (min-width:992px) {
@@ -715,6 +704,9 @@ footer .logo{
  }
  footer .logo{
    padding: 2em 0 2em 1.5em;
+ }
+ footer .middle-footer-block {
+   margin-top: 5px;
  }
 
  }

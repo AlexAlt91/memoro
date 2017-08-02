@@ -537,6 +537,16 @@ footer .logo{
     top: auto;
     right:auto;
   }
+  /* Added 8/2 */
+  .signin_signup_btns{
+    position: relative;
+    top: 5px;
+  }
+  .site-logo {
+    position: relative;
+    right: 10px;
+  }
+
   header .hero {
     position: relative;
     top: -30px;
@@ -547,6 +557,16 @@ footer .logo{
   footer .middle-footer-block {
     margin-top: -20px;
     margin-left: -20px;
+  }
+  /* needs fixing
+  .signupcontainer {
+    width: auto;
+    padding: auto;
+  } */
+
+  .single_signin {
+    position: relative;
+    left: 10px;
   }
  }
 
@@ -581,22 +601,6 @@ footer .logo{
     padding-top: 5px;
    }
 
- /*footer {
-   background-color: #fff;
- }
-
-   footer nav ul{
-     margin-top: -10px;
-     text-align: left;
-
-   }
-   footer .right-footer-block {
-     background-color: #3498DB;
-   }
-
-   footer .middle-footer-block {
-     margin-left: 0px;
-   } */
    footer .logo{
      margin-top: -25px;
    }

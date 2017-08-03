@@ -93,7 +93,7 @@ p {
     width: 1170px;
   }
   footer .middle-footer-block {
-    margin-top: 0px
+    padding-top: 6px;
   }
   footer .right-footer-block {
     position: relative;
@@ -558,11 +558,12 @@ footer .logo{
     margin-top: -20px;
     margin-left: -20px;
   }
-  /* needs fixing
+
   .signupcontainer {
+    display: none;
     width: auto;
     padding: auto;
-  } */
+  }
 
   .single_signin {
     position: relative;
